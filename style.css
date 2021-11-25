@@ -1,13 +1,16 @@
 h1{
     font-family: Courier New;
-    text-shadow: 0 0 5px rgb(81, 17, 230), 0 0 10px lightblue;
+    text-shadow: 0 0 8px DodgerBlue, 0 0 15px white;
     text-align:center;
     border-style: solid;
     border-color:black;
-    background-color:lightgray;
+    background-color:black;
   }
   nav{
     font-family: Courier New;
+    border-style: solid;
+    border-color:black;
+    background-color:black;
   }
   
   p {
@@ -74,6 +77,7 @@ h1{
     border: 2px solid black;
     border-collapse: collapse;
     text-align: center;
+    width: 102%;
   }
 
   .container {
