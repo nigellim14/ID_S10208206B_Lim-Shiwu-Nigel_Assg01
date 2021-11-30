@@ -55,7 +55,19 @@ a{
         cursor: pointer;
     }
 
+    input[type=reset] {
+        background-color: #04AA6D;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        cursor: pointer;
+    }
+
     input[type=submit]:hover {
+        background-color: #45a049;
+    }
+
+    input[type=reset]:hover {
         background-color: #45a049;
     }
 
@@ -119,25 +131,29 @@ label{
           <img src="images/contactmesidepicture.jpg" style="width:100%">
         </div>
         <div class="column">
-          <form action="/messageReceived.html">
-            <label for="fname">First Name</label>
-            <input type="text" id="name" name="firstname" placeholder="Your name ...">
-            <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lastname" placeholder="Your last name ...">
-            <label for="country">Country</label>
-            <select id="country" name="country">
-              <option value="singapore">Singapore</option>
-              <option value="malaysia">Malaysia</option>
-              <option value="indonesia">Indonesia</option>
-            </select>
-            <label for="subject">Subject</label>
-            <textarea id="subject" name="subject" placeholder="Write a message here .." style="height:170px"></textarea>
-            <input type="submit" value="Submit">
+          <form name="myForm" action="mailto:S10208206@connect.np.edu.sg" onsubmit="return validateForm()" method="post" required enctype="text/plain">
+
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name ...">
+
+
+            <label for="email">Email</label>
+            <input type="text" id="eail" name="email" placeholder="Your email ...">
+
+
+          
+            <label for="comment">Comment</label>
+            <textarea id="comment" name="comment" placeholder="Write a message here that you would like to share with me .." style="height:170px"></textarea>
+            <input type="submit" value="Email Me">
+            <input type="reset" value="Reset">
           </form>
+
+          <p>As you may have seen on my personal portfolio site, thank you for reaching out to me am grateful for it hope to get your reply soon.</p>
         </div>
       </div>
     </div>
  
+
 
 
 
