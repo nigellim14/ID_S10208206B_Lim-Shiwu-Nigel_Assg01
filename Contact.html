@@ -45,6 +45,16 @@ a{
         margin-bottom: 16px;
         resize: vertical;
     }
+
+        
+    input[type=email], select, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+    }
     
     input[type=submit] {
         background-color: #04AA6D;
@@ -136,7 +146,8 @@ label{
             <input type="text" id="name" name="name" placeholder="Your name ...">
 
             <label for="email">Email</label>
-            <input type="text" id="eail" name="email" placeholder="Your email ...">
+            <input type="email" id="email" name="email" placeholder="Your email ...">
+            <br>
 
             <label for="comment">Comment</label>
             <textarea id="comment" name="comment" placeholder="Write a message here that you would like to share with me .." style="height:170px"></textarea>
