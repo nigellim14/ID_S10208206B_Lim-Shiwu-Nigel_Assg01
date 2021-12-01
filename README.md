@@ -3,6 +3,8 @@ A personal portfolio of myself with design and develop responsive website
 
 
 Features that have been implemented in all pages.
+
+
 (1) I have used "Nav" function bar having it easy to use navigating between the different pages in the website.
 
 
@@ -19,6 +21,8 @@ Features that have been implemented in all pages.
 
 
 index page (index.html): This is my Homepage introducing myself with the basic personal information and contact information for recruiters.
+
+
 (1) For the information on [Ways to contact, About me, My accomplisment] I have created a "Column" function to store and display a 3-column layout grid.
 
 
@@ -32,6 +36,8 @@ index page (index.html): This is my Homepage introducing myself with the basic p
 
 
 skills page (Skills.html): This will be my outline skills and other relevant experience and interest I have as a student.
+
+
 (1) I have a short description about myself on the goals and challenges using "Paragprah" function it usually is a block of text.
 
 
@@ -48,6 +54,8 @@ skills page (Skills.html): This will be my outline skills and other relevant exp
 
 
 software skills page (SoftwareSkills.html): This page will be a in depth of my software skills listed in the table.
+
+
 (1) I have inserted a "h2" header of the title of each software I have experience and learned using in school.
 
 
@@ -58,6 +66,8 @@ software skills page (SoftwareSkills.html): This page will be a in depth of my s
 
 
 sports skills page (Sports.html): This page will be a in depth of my sports skills listed in the table.
+
+
 (1) Used a "p" function to have a short description to said how sports is important to me.
 
 
@@ -68,6 +78,8 @@ sports skills page (Sports.html): This page will be a in depth of my sports skil
 
 
 editing skills page (Editing.html): This page will be a in depth of my editing skills used with the different software listed in the table.
+
+
 (1) Started of with "p" function to have a description of my thoughts about ediitng in a sentences.
 
 
@@ -78,6 +90,8 @@ editing skills page (Editing.html): This page will be a in depth of my editing s
 
 
 educational history and work experience (StudynWork.html): This page I will break down into 2 segment containing my education history as well as my past work experience.
+
+
 (1) Created a "row" function of 3 column, containing my past 3 school logos that I have been studying at.
 
 
@@ -93,6 +107,8 @@ educational history and work experience (StudynWork.html): This page I will brea
 (5) Lastly Created a "row" function of 3 column, from the left to the right I have inserted image and at the bottom there are a "A href" link to have a close up view the picture.
 
 contact page (Contact.html): A page that allows recruiters to send email to applicant via the site and thank the recruiters for reaching out.
+
+
 (1) Created a "row" function of 2 column, starting of from the left is a images on the right it's the textbox for recruiters to fill up.
 
 
